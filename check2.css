@@ -1,0 +1,47 @@
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+
+#codes {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+#delBtn{
+margin-top: -21px;
+margin-left: 45px;}
+.notification-tab {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  margin-top: 10px;
+}
+
+.notification-count {
+  background: rgb(35, 153, 250);
+  color: white;
+  padding: 0px 5px;
+  margin-right: 10px;
+}
+
+.notification-content {
+  display: none;
+}
+
+.notification-content.show {
+  display: block;
+}
+
+
+ 

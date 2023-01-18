@@ -1,0 +1,115 @@
+.barchart-Wrapper {
+    display: table;
+    position: relative;
+    margin: 20px 0;
+    height: 252px;
+  }
+  
+  .barChart-Container {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+  }
+  
+  .barchart {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid rgb(247, 241, 240);
+  }
+  
+  .barchart-Col {
+    position: relative;
+    vertical-align: bottom;
+    display: table-cell;
+    height: 100%;
+  }
+  
+  .barchart-Col+.barchart-Col {
+    border-left: 4px solid transparent;
+  }
+  
+  .barchart-Bar {
+    position: relative;
+    height: 0;
+    transition: height 0.5s 2s;
+    width: 66px;
+    margin: auto;
+  }
+  
+  .barchart-Bar:after {
+    content: attr(attr-height);
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .barchart-BarFooter {
+    position: absolute;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+  }
+  
+  .barchart-BarFooter h3 {
+    color: rgb(14, 13, 13);
+  }
+  
+  .barchart-TimeCol {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .barchart-Time {
+    height: 20%;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  .barchart-Time:after {
+    border-bottom: 1px solid black;
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0em;
+  }
+  
+  .barchart-TimeText {
+    position: absolute;
+    top: -8px;
+    z-index: 1;
+    background: white;
+    padding-right: 5px;
+    color: #4d4d4d;
+    font-size: 15px;
+    font-family: 'Avenir Medium';
+  }
+  
+  .one-bar {
+    background-color: rgb(71, 86, 216);
+  }
+  
+  .two-bar {
+    background-color: rgb(19, 167, 75);
+  }
+  
+  .three-bar {
+    background-color: rgb(240, 60, 15);
+  }
+  
+  .four-bar {
+    background-color: rgb(12, 85, 51);
+  }
+  
+  .five-bar {
+    background-color: rgb(89, 35, 114);
+  }
+  .six-bar{
+    background-color: rgb(128, 100, 8);
+  }
